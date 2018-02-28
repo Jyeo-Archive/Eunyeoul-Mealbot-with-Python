@@ -171,6 +171,6 @@ C:\Users\JunhoYeo\Documents\GitHub\Eunyeoul-Mealbot-with-Python>
 ```
 `잘가`, `뱌뱌`, `빠이`, `ㅂㅂ`, `ㅂㅇ` , `ㅃㅃ`, `ㅃㅇ`, `나가기`, `종료`, `exit`, `quit` 키워드를 사용하여 급식봇을 종료할 수 있습니다.
 
-## 제작 및  도움이 된 프로젝트
+## 제작 및 공부에 도움이 된 프로젝트
 https://github.com/Juneyoung-Kang/school-meal<br>
 https://github.com/M4ndU/school_meal_parser_python
