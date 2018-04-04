@@ -1,8 +1,38 @@
 # Eunyeoul Mealbot with Python
-2018.02.28<br>
 은여울중학교(경기도 김포시)의 급식 데이터를 가져오는 파이썬 급식봇 프로그램<br>
 ![usage](images/usage.png)<br>
 ~~예제 무엇...~~
+
+| Date | Progress |
+| :------------- | :------------- |
+| 2018.02.28 | 제작 |
+| 2018.04.04 | 모듈화 |
+
+## 다른 프로젝트에 사용 및 응용 방법
+`parsemeal.py` 파일을 작업 디렉토리로 옮긴 뒤
+```Python
+from parsemeal import *
+```
+등의 방법으로 `module`을 `import`합니다.
+
+#### mealparse 함수의 호출
+```Python
+mealparse(date, weekday, eduOfficeURL, schulCode, schulKndScCode, schMmealScCode)
+```
+
+- `date` : yyyy.mm.dd 형식의 문자열
+- `weekday` : 월요일~금요일(0~6)과 같은 요일 인덱스
+- `eduOfficeURL` : 급식 데이터를 가져올 학교가 위치한 지역의 교육청
+- `schulCode` :  학교 코드
+- `schulKndScCode` : 학교 종류 코드
+- `schMmealScCode` : 급식 종류 코드
+
+위와 같이 `mealparse` 함수를 호출할 수 있습니다.
+
+#### mealparse 함수의 리턴값
+
+- `mealparse` 함수는 요청받은 날짜의 급식 데이터를 정리하여 반환합니다.
+- 데이터가 없거나 에러가 발생했을 경우 `mealparse` 함수는 `error` 문자열을 반환합니다.
 
 ## 사양
 #### 이 프로그램을 실행하려면...
